@@ -122,7 +122,7 @@ include template('script.contact');
             'message'  : $('textarea[name=message]').val()
         };
         $.ajax({
-          url : "/vi/lien-he/mail.php",
+          url : "/lien-he/mail.php",
           type: "POST",
           data : formData,
           success: function(data, textStatus, jqXHR)

@@ -8,24 +8,16 @@
       <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12">
         <ul class="list-unstyled">
           <li>
-            <a class="home" href="/vi/">Trang chủ</a>
+            <a class="home" href="/">Trang chủ</a>
           </li>
           <li>
-            <a class="about" href="/vi/gioi-thieu/">Giới thiệu</a>
+            <a class="about" href="/gioi-thieu/">Giới thiệu</a>
           </li>
           <li>
-            <a class="bmi" href="/vi/chi-so-khoi-co-the/">Chỉ số khối cơ thể</a>
+            <a class="bmi" href="/chi-so-khoi-co-the/">Chỉ số khối cơ thể</a>
           </li>
           <li>
-            <a class="contact" href="/vi/lien-he/">Liên hệ</a>
-          </li>
-          <li>
-            <a href="/blog/">Blog</a>
-          </li>
-          <li>
-<?php
-include 'lang.php';
-?>
+            <a class="contact" href="/lien-he/">Liên hệ</a>
           </li>
         </ul>
       </div>

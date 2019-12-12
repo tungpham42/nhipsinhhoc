@@ -1,9 +1,9 @@
 {
-"short_name": "Biorhythm",
-"name": "Biorhythm Calculator",
+"short_name": "Nhịp sinh học",
+"name": "Máy tính Nhịp sinh học",
 "theme_color": "rgba(0,117,154,0.84)",
 "background_color": "#97a4ad",
-"display": "standalone",
+"display": "fullscreen",
 "icons": [
     {
     "src": "static/img/app-icons/icon-48.png",

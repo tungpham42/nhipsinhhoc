@@ -49,7 +49,7 @@
   }
   &-button:hover, &-button:focus {
     background: $c-base;
-    color: #fff;
+    color: #fff !important;
     box-shadow: none;
     border-color: $c-base;
     text-decoration: none;

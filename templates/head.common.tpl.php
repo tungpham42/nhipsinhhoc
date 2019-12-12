@@ -11,5 +11,5 @@
 <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $cdn_url; ?>/static/img/app-icons/apple-touch-icon-ipad-retina.png">
 <link rel="icon" sizes="32x32" href="<?php echo $cdn_url; ?>/static/img/favicon-32x32.png" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
-<link href="<?php echo $cdn_url; ?>/static/css/index.css?v=71" rel="stylesheet">
+<link href="<?php echo $cdn_url; ?>/static/css/index.css?v=72" rel="stylesheet">
 <link rel="manifest" href="<?php echo $cdn_url; ?>/manifest.webmanifest">

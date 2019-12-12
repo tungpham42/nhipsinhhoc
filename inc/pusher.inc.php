@@ -3,7 +3,7 @@ require realpath($_SERVER['DOCUMENT_ROOT']).'/vendor/autoload.php';
 use Melbahja\Http2\Pusher;
 $pusher = Pusher::getInstance();
 
-$pusher->link('/static/css/index.css?v=71')
+$pusher->link('/static/css/index.css?v=72')
         ->link('/static/css/fa/css/all.min.css?v=1')
         ->src('/static/js/animation.js')
         ->src('/static/js/bmi.js')

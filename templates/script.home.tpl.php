@@ -16,7 +16,6 @@ include template('script.common');
 <script src="<?php echo $cdn_url; ?>/static/js/scripts.js?v=10"></script>
 <script src="<?php echo $cdn_url; ?>/static/js/animation.js"></script>
 <script src="<?php echo $cdn_url; ?>/static/js/manipulation.js"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
 $.notify.defaults({ showDuration: 400, hideDuration: 200, autoHideDelay: 1200, showAnimation: "fadeIn", hideAnimation: "fadeOut", position: "right top" });
 </script>

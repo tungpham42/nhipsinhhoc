@@ -22,7 +22,7 @@ include template('ga');
 ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.vi.min.js" integrity="sha256-TnMvef6AxT9fg6mNrTsZCgPDkU4g5EyB+tu66oLAI4U=" crossorigin="anonymous"></script>
   </head>
-  <body class="home" data-href="<?php echo base_url(); ?>/vi/">
+  <body class="home" data-href="<?php echo base_url(); ?>/">
 <?php
 include template('header.vi');
 ?>
@@ -38,7 +38,7 @@ include template('header.vi');
               </ul>
               <div class="tab-content p-4">
                 <section id="calculate" class="tab-pane fade in show active">
-                  <form class="form-inline mb-3" id="dob-form" action="/vi/#ket-qua">
+                  <form class="form-inline mb-3" id="dob-form" action="/#ket-qua">
                     <label class="sr-only" for="dob">Ngày sinh</label>
                     <input data-toggle="tooltip" data-placement="top" data-original-title="Định dạng: YYYY-MM-DD" data-disable-interaction="true" data-step="1" data-intro="Chọn Ngày sinh theo thứ tự năm, tháng, ngày và ấn `Tính` để tính nhịp sinh học của bạn để tìm hiểu thêm về bản thân" type="text" pattern="\d{4}-\d{2}-\d{2}" class="form-control mb-2 mr-sm-2 col-12 col-xl-5 col-lg-5 col-md-4 col-sm-12" name="dob" id="dob" placeholder="Ngày sinh" required="required" value="<?php echo $dob; ?>" data-date-start-view="decade">
                     <a data-toggle="tooltip" data-placement="top" data-original-title="Ấn để bắt đầu" class="btn btn-warning mb-2 mr-xl-2 mr-lg-2 mr-md-2 col-12 col-xl-2 col-lg-2 col-md-2 col-sm-12" onclick="submitDob()">Tính</a>

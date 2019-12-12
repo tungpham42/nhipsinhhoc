@@ -16,9 +16,6 @@
           <li>
             <a class="bmi" href="/chi-so-khoi-co-the/">Chỉ số khối cơ thể</a>
           </li>
-          <li>
-            <a class="contact" href="/lien-he/">Liên hệ</a>
-          </li>
         </ul>
       </div>
       <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12">
